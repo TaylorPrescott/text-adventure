@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(rgb(248, 199, 95), rgb(32, 32, 32));
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    width: 265px;
+    margin: 0 auto;
+}
+
+nav button {
+    display: inline-block;
+    margin: 30px;
+}
+
+main {
+    height: 500px;
+    width: 90%;
+    margin: 25px auto;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(247, 245, 245);
+    border: 2px solid gray;
+}
+
+p {
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px;
+}
+
+form {
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+}
+
+form input {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+button {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(212, 208, 208);
+}
+
+.item-img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-area {
+        height: 470px;
+        overflow: scroll;
+    }
+}
