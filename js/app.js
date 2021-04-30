@@ -12,7 +12,7 @@
 
         card: 'The card reads, “Thank you so much for joining me. I eagerly await our time together.”. Could this be your abductor’s handwriting? Maybe you should take this card with you to use as evidence if you can escape.',
 
-        coffeeTable: 'A few items are resting on the table. Three unlit candles that have sit side by side, with only a small amount of wax remaining above their bases. A drawing depicts a person inside a room who appears to be crying. A crumpled piece of <b>paper</b> rests beside a pen. A pile of dirty clothes rests near the table with a thank you <b>card</b> beside them.',
+        coffeeTable: 'A few items are resting on the table. Three unlit candles sit side by side, with only a small amount of wax remaining above their bases. A drawing depicts a person inside a room who appears to be crying. A crumpled piece of <b>paper</b> rests beside a pen. A pile of dirty clothes rests near the table with a thank you <b>card</b> beside them.',
 
         box: 'The ornately decorated box is adorned with faces that seemingly have vines wrapping around them. Oddly, none of the faces have eyes, yet their mouth and ears still remain. The box is locked with a three digit combination lock. Each of the three wheels display the numbers zero through nine.',
 
