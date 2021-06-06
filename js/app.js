@@ -40,7 +40,7 @@
 
     const images = {
         paperSrc: './images/paper.jpg',
-        safe: '../images/safe.jpg',
+        safe: '/images/safe.jpg',
         envelope: '../images/envelope1.jpg'
     };
 
