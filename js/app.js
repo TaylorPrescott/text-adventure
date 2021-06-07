@@ -40,8 +40,8 @@
 
     const images = {
         paperSrc: './images/paper.jpg',
-        safe: '/images/safe.jpg',
-        envelope: '../images/envelope1.jpg'
+        safe: './images/safe.jpg',
+        envelope: './images/envelope1.jpg'
     };
 
     const GameElements = {
