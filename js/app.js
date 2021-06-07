@@ -88,11 +88,10 @@
     };
 
     const enterHandler = function(code, obj) {
-        if (Room.boxOpen || Room.safeOpen) {
-           return GameElements.text.innerHTML = 'Item already opened.';
-        }
-
         if (obj === 'box') {
+            if (Room.boxOpen) {
+                return GameElements.text.innerHTML = 'Item already opened.';
+            }
             if (code === '297') {
                 Room.boxOpen = true;
                 Room.box = 'Inside the box is a bracelet, a pair of earrings, and seventy five cents. The quarters seem to be very old.'
@@ -101,6 +100,9 @@
                 GameElements.text.innerHTML = 'Combination didn\'t work.';
             }
         } else if (obj === 'safe') {
+            if (Room.safeOpen) {
+                return GameElements.text.innerHTML = 'Item already opened.';
+            }
             if (code === '38975') {
                 const openSafe = 'You find a golden <b>key</b> inside the safe.';
                 Room.safeOpen = true;
